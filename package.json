@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start --tunnel",
-    "start:clean": "expo r -c --tunnel",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject",
+    "start": "npx expo start --tunnel",
+    "start:clean": "npx expo r -c --tunnel",
+    "android": "npx expo start --android",
+    "ios": "npx expo start --ios",
+    "web": "npx expo start --web",
+    "eject": "npx expo eject",
     "lint": "eslint --ext .tsx --ext .ts .",
     "lint:fix": "eslint --ext .tsx --ext .ts . --fix",
     "format": "prettier --check ./src"
